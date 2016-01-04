@@ -5,7 +5,7 @@
  */
 
 body {
-    background-color: #eeeeee;
+    background-color: #fff;
     margin: auto;
     width: 70%;
     height: 100%;
@@ -63,8 +63,20 @@ li {
 }
 
 .datos {
-    width: 450px;
+    max-width: 450px;
+    height: auto;
     float: left;
+}
+
+.portapapeles {
+    position: absolute;
+    z-index: -2;
+    width: 600px;
+    height: auto;
+    top: -130px;
+    left: -60px;
+    transform: rotate(360.5deg);
+
 }
 
 .foto {
@@ -161,3 +173,4 @@ li {
     margin-right: 70%;
     border: 1px solid #11e9b6;
 }
+
