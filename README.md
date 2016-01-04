@@ -1,2 +1,2 @@
-# html-css-test
+# lynx901.github.io
 testing some things in HTML &amp; CSS
