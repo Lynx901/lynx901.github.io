@@ -1,0 +1,143 @@
+/* Debug */
+ {
+	border: 2px solid black;
+}
+
+html, body {
+	min-width: 447px;
+}
+
+/* Header */
+#header {
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	background-image: url("header.png");
+
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+
+	z-index: 1;
+}
+
+/* Navbar */
+
+nav {
+	position: fixed;
+	width: 100%;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+	display: flex;
+	justify-content: space-around;
+
+	z-index: 1;
+}
+
+nav div{
+	padding: 40px 20px;
+}
+
+.seccion-nav a {
+	font-size: 20px;
+	color: white;
+	text-transform: lowercase;
+	font-weight: bold;
+}
+
+.seccion-nav a:hover {
+	color: black;
+}
+
+
+.contact-cta {
+	margin-top: 30px;
+	padding-top: 10px;
+	border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: white;
+    color: white;
+    color: rgb(232, 152, 20);
+    height: 30px;
+    padding-top: -20px;
+}
+
+.contact-cta:hover {
+	background-color: white;
+}
+
+.contact-cta:hover > a {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Wrapper */
+
+#separator {
+	position: relative;
+	margin-top: -89px;
+
+	height: 90px;
+	width: 100%;
+	object-fit: cover;
+
+	object-fit: cover;
+	z-index: 2;
+}
+
+#content {
+	position: relative;
+	z-index: 2;
+
+}
+
+#content #blog {
+	margin: 7% 15% 5% 15%;
+}
+
+/* Blog Post */
+
+#blog a:hover {
+	color: #3273dc
+}
+
+.blog-post {
+	display: flex;
+
+	
+    margin-bottom: 20px;
+
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.blog-post:hover {
+	-webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.post-img {
+	height: auto;
+	width: 100%;
+}
+
+.blog-resume {
+	padding: 10px 20px 10px 20px;
+}
+
+.blog-post h2 {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+
+
+
+
+
+

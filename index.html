@@ -1,62 +1,55 @@
-<!--
- * 
- * 
- * 
- -->
-
-<!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
-    <!-- Meta Tag del color en Android -->
-    <meta content='#622599' name='theme-color' />
-    <meta charset="UTF-8">
-
-    <title>Probando HTML y CSS</title>
-    <meta name='description' content='Prueba.' />
-
-    <link href='https://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Satisfy' rel='stylesheet' type='text/css'>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script type="text/javascript" src="js/javascript.js"></script>
-    <script type="text/javascript" src="js/extras/jquery.min.1.7.js"></script>
-    <script type="text/javascript" src="js/turn.js/extras/modernizr.2.5.3.min.js"></script>
+	<title>Daniel Moya</title>
+	<link rel="stylesheet" type="text/css" href="bulma.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-    <div class="imagen">
-        <div class="foto"><img src="images/foto.jpg" alt="Foto de Daniel"></img></div>
-        <div class="clip"><img src="images/clip.png" alt="Un clip"></img></div>
-        <div class="cafe"><img src="images/cafe.png" alt="Mancha de cafe"></div>
-    </div>
-    <div class="datos">
-        <img class="portapapeles" src="images/portapapeles.png" alt="Portapapeles"></img>
-        <h1><span class="satisfy">Name :</span> Daniel</h1>
-        <h1><span class="satisfy">Surnames :</span> Moya Leiva</h1>
 
-        <div class="educacion">
-            <img src="images/uja.png" alt="Universidad de Jaén">
-            <div class="arrow_box"><span class="satisfy">2014 - Now </span> <span>Computer Engineering <br/>Current note: 6.62</span></div>
-        </div>
+	<div id="header">
+		<nav>
+			<div class="seccion-nav"><a href="#">Sobre mí</a></div>
+			<div class="seccion-nav"><a href="index.html#blog">Blog</a></div>
+			<div class="seccion-nav"><a href="#">Portfolio</a></div>
+			<div class="contact-cta seccion-nav"><a href="#">¡mándame un mensaje!</a></div>
+		</nav>
+	</div>
 
-        <div class="educacion">
-            <img src="images/sierramagina.png" alt="IES Sierra Mágina">
-            <div class="arrow_box"><span class="satisfy">2012 - 2014 </span> <span>Technology Bachelor <br/>Final note: 8.629</span></div>
-        </div>
+	<div id="content">
+		<img id="separator" src="blog-top.png">
 
-        <div class="educacion">
-            <img src="images/sierramagina.png" alt="IES Sierra Mágina">
-            <div class="arrow_box"><span class="satisfy">2008 - 2012 </span> <span>Secondary Education <br/>3rd & 4th done <br/>in bilingual</span></div>
-        </div>
-        
-        <br/>
-        <ul>
-            <li><a href="#">TWITTER</a></li>
-            <li><a href="#">FACEBOOK</a></li>
-            <li><a href="#">GITHUB</a></li>
-        </ul>
-        <div class="separador"></div>
-        <br/>
-    </div>
+		<div id="blog">
+
+			<div class="blog-post" href="#">
+				<a class="post-img" href="#"><img src="producto-default.jpg"></a>
+				<div class="blog-resume">
+					<a href="#"><h2> Lorem Ipsum Dolor Sit Amet </h2></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+
+			<div class="blog-post" href="#">
+				<a class="post-img" href="#"><img src="producto-default.jpg"></a>
+				<div class="blog-resume">
+					<a href="#"><h2> Lorem Ipsum Dolor Sit Amet </h2></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+
+			</div>
+
+			<div class="blog-post" href="#">
+				<a class="post-img" href="#"><img src="producto-default.jpg"></a>
+				<div class="blog-resume">
+					<a href="#"><h2> Lorem Ipsum Dolor Sit Amet </h2></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
 </body>
+
+</html>
