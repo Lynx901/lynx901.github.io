@@ -29,6 +29,10 @@ a:hover {
 	text-decoration: underline #EE8434;
 }
 
+p {
+	text-align: justify;
+}
+
 
 
 @font-face {
@@ -93,8 +97,6 @@ nav div{
 
 	color: white;
 }
-
-
 
 .seccion-nav a:hover {
 	color: #4a4a4a;
@@ -167,7 +169,7 @@ nav div{
 	z-index: 2;
 }*/
 
-#content {
+.centered {
 	position: relative;
 	z-index: 2;
 
@@ -184,6 +186,11 @@ nav div{
 	justify-content: center;
 
 	margin-bottom: 20px;
+}
+
+/* Portfolio */
+#portfolio {
+	display: flex;
 }
 
 /* Blog */
@@ -210,7 +217,7 @@ nav div{
 }
 
 @media (max-width: 800px) {
-	#content {
+	.centered {
 		margin: 0;
 
 		-webkit-transition: all 0.3s ease;
