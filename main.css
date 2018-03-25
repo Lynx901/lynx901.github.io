@@ -61,7 +61,7 @@ footer {
 	width: 100%;
 	background-size: cover;
 
-	z-index: 1;
+	z-index: -2;
 
 }
 
@@ -83,7 +83,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 
-	z-index: 1;
+	z-index: 0;
 }
 
 nav div{
@@ -156,8 +156,87 @@ nav div{
 	}
 }
 
+/* Modal de contacto */
+#contacto button {
+	width: 100%;
+	background-color: #3273dc;
+	color: #fff;
+}
 
-/* Wrapper 
+#contacto .field {
+	margin-top: 20px;
+}
+
+#contacto {
+	display: flex;
+	align-items: center;
+}
+
+@media (min-width: 800px) {
+	#contacto {
+	   width: 37%;
+
+	   position: absolute;
+	   visibility: hidden;
+	   opacity: 0;
+
+	   margin-right: -300px;
+	   height: 80vh;
+
+	   top:0px;
+	   right: 0px;
+	}
+
+	#contacto:target {
+	   visibility:visible;
+	   opacity: 1;
+
+	   position: fixed;
+	   margin:0;
+
+	   z-index: 1;
+
+	   transition: all 0.5s;
+	}
+
+	.contenedor-popup {
+	   width: 100%;
+
+	   position: relative;
+
+	   padding:30px 50px;
+
+	   background-color: #fff;
+	}
+
+	#contacto .cerrar-popup {
+	   position: absolute;
+	   top:3px;
+	   right:3px;
+
+	   padding:7px 10px;
+
+	   font-size: 20px;
+	   line-height: 1;
+
+	}
+
+}
+
+@media (max-width: 800px) {
+	#contacto {
+		width: 100%;
+		padding: 5%;
+	}
+
+	#contacto.contenedor-popup {
+		width: 100%;
+	}
+}
+
+
+
+/* Wrapper */
 #separator {
 	position: relative;
 	margin-top: -89px;
@@ -167,20 +246,19 @@ nav div{
 	object-fit: cover;
 
 	z-index: 2;
-}*/
+}
 
-.centered {
+#content {
 	position: relative;
 	z-index: 2;
+	background-color: #fff;
+}
 
-	margin: 5% 15% 5% 15%;
+.centered {
+	padding: 5% 15% 5% 15%;
 }
 
 /* Sobre mi */
-#sobre-mi {
-	margin-bottom: 5%;
-}
-
 .info {
 	display: flex;
 	justify-content: center;
@@ -191,7 +269,26 @@ nav div{
 /* Portfolio */
 #portfolio {
 	display: flex;
+	padding: 0 3%;
+
+	align-items: center;
 }
+
+.portfolio-item {
+	flex-grow: 1;
+
+	text-align: center;
+}
+
+.portfolio-item img{
+	width: 500px;
+	height: auto;
+}
+
+.diferenciador {
+	flex-grow: 1;
+}
+
 
 /* Blog */
 .blog-post {
@@ -219,6 +316,7 @@ nav div{
 @media (max-width: 800px) {
 	.centered {
 		margin: 0;
+		padding: 5%;
 
 		-webkit-transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;

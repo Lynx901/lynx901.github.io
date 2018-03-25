@@ -12,13 +12,16 @@
 
 <body>
 
+	
+	<nav>
+		<div class="seccion-nav"><a href="#sobre-mi">.Sobre mí</a></div>
+		<div class="seccion-nav"><a href="#blog">.Blog</a></div>
+		<div class="seccion-nav"><a href="#portfolio">.Portfolio</a></div>
+		<div class="contact-cta seccion-nav popup-link"><a href="#contacto">¡mándame un mensaje!</a></div>
+	</nav>
+
 	<div id="header">
-		<nav>
-			<div class="seccion-nav"><a href="#sobre-mi">.Sobre mí</a></div>
-			<div class="seccion-nav"><a href="index.html#blog">.Blog</a></div>
-			<div class="seccion-nav"><a href="#">.Portfolio</a></div>
-			<div class="contact-cta seccion-nav"><a href="#contacto">¡mándame un mensaje!</a></div>
-		</nav>
+		
 	</div>
 
 	<div id="content">
@@ -29,14 +32,19 @@
 			<div class="info">
 				<p><strong>estudiante</strong> de ingeniería informática. <br/></p>
 			</div>
-				<p>adoro trabajar en <a href="/portfolio#web">páginas web</a> y con código, aunque a veces se me olvida y me pongo a <a href="/portfolio#diseño">diseñar</a> cosas con photoshop o sketch. Si quieres saber qué he hecho con mi vida en 22 años, puedes ver mi <a href="cv.pdf" target="blank">curriculum vitae</a> o ir a la sección del portfolio, que es donde están mis proyectos bonitos.</p>
+				<p>adoro trabajar en <a href="/portfolio#web">páginas web</a> y con código, aunque a veces se me olvida y me pongo a <a href="/portfolio#diseño">diseñar</a> cosas con photoshop o sketch. Si quieres saber qué he hecho con mi vida en 22 años, puedes ver mi <a href="cv.pdf" target="blank">curriculum vitae</a> o ir a la sección del portfolio, que es donde están mis proyectos bonitos.</p> <br/></p>me encuentro estudiando <strong>Ingeniería Informática</strong> (ingeniería del software) en la Universidad de Jaén, mientras realizo una movilidad erasmus en la <a id="#erasmus" href="https://www.thi.de">Technische Hochschule Ingolstadt</a>, en Baviera, Alemania.</p>
 		</div>
 
 		<div id="portfolio">
-			<div class="portfolio-item">
-				<a href="#"><h2>.Lorem Ipsum Dolor Sit Amet </h2></a>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<a href="https://github.com/Lynx901/igvProject" class="portfolio-item">
+				<img src="igv.png"><h3>.proyecto de "juego" gráfico</h3></a>
+			</a>
+			<div class="diferenciador">
+				 
 			</div>
+			<a href="https://github.com/Lynx901/Animal-Adoption-WebApp" class="portfolio-item">
+				<img src="animaladoption.png"><h3>."webapp" de adopción de mascotas</h3></a>
+			</a>
 		</div>
 
 		<div id="blog" class="centered">
@@ -64,7 +72,27 @@
 			</div>
 
 		</div>
+
+		<div id="contacto">
+		   	<div style="width:100%;" class="contenedor-popup">
+		    	<h2>.Contacto</h2>
+<div class="field">
+				<label>Email</label>
+				<input class="input" type="email" placeholder="¡pon tu email!">
+			</div>
+<div class="field">
+				<label>Mensaje</label>
+				<textarea class="textarea" placeholder="escribe aquí..."></textarea>
+</div>
+				<button class="button">Enviar</button>
+
+		      	<a class="cerrar-popup" href="#">X</a>
+		   	</div>
+		</div>
 	</div>
+
+
+		
 
 	<footer>
 		 
