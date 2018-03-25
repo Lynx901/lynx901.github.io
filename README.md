@@ -1,2 +1,5 @@
 # lynx901.github.io
-testing some things in HTML &amp; CSS
+testing things in html & css (flexbox) for my personal webpage
+
+
+![alt text](https://preview.ibb.co/cNN8zn/Untitled.png")
